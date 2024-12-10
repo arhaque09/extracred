@@ -2,6 +2,7 @@
 ## Table of Contents
 1. [Description](#description)
 2. [How to Use/Test the Project](#how-to-usetest-the-project)
+3. [Recommendations for Modifications](#recommendations-for-modifications)
 
 
 ---
@@ -25,4 +26,6 @@ This project is written in C++ and is a database that keeps track of transaction
    g++ -o output db.cpp
    ./output
    ```
+## Recommendations for Modifications
+This assignment has several things to improve upon. First, there should be clear instructions on what the code should output given a couple of examples. I made my own output like “Exception: Transaction has not taken place for A” and “Account A not found!”. Furthermore, for the get(key) function, it should not return null or the key, as languages like c++ require a type to be stated for output. My function was int get(key), thus I am not able to return null as it is not of type int (again specifying what the output for each function should be including the variable type or if its a print statement is crucial for this assignment).
 
