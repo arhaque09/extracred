@@ -70,7 +70,7 @@ This project is written in C++ and is a database that keeps track of transaction
     inmemoryDB.get("B");
    ```
    Expected output:
-   ```bash
+   ```
    TESTS FOR EXTRA CREDIT
    Account A not found!
    Exception: Transaction has not taken place for A
