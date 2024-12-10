@@ -11,7 +11,7 @@ This project is written in C++ and is a database that keeps track of transaction
 
 ---
 ## How to Use/Test the Project
-1. First clone the repository into your account.
+1. First clone the repository into your IDE (I use Visual Studio Code). I would recommend using VS code.
 2. Then in the main function after the cout statement "TESTS FOR EXTRA CREDIT", you can write your tests such as the ones in Figure 2 of the assignment.
 3. I would first create a instance of the InMemoryDB object like below:
    ```
