@@ -12,7 +12,7 @@ This project is written in C++ and is a database that keeps track of transaction
 ---
 ## How to Use/Test the Project
 1. First clone the repository into your account.
-2. Then in the main functionw where it says "write your tests here", you can write your tests such as the ones in Figure 2 of the assignment.
+2. Then in the main function where it says "write your tests here", you can write your tests such as the ones in Figure 2 of the assignment.
 3. I would first create a instance of the InMemoryDB object like below:
    ```
    InMemoryDB object;
